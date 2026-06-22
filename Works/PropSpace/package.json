@@ -1,0 +1,19 @@
+{
+  "name": "propspace",
+  "version": "1.0.0",
+  "description": "PropSpace is a full-stack real-time web application where users can list, view, update, and delete properties for rent or sale.",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && node index.js",
+    "client": "cd client && npm run dev",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
