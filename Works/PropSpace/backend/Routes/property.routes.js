@@ -7,8 +7,8 @@ const {
     createProperty, 
     updateProperty, 
     deleteProperty 
-} = require('../controllers/property.controller');
-const auth = require('../middleware/auth.middleware');
+} = require('../Controllers/property.controller');
+const auth = require('../Middleware/auth.middleware');
 
 // Public routes
 router.get('/', getProperties);

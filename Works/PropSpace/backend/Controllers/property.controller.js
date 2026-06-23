@@ -1,4 +1,4 @@
-const Property = require('../models/property.model');
+const Property = require('../Models/property.model');
 
 // Get all properties (Public)
 exports.getProperties = async (req, res) => {

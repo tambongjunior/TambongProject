@@ -1,6 +1,6 @@
 import { useState, useEffect, useContext } from 'react';
-import api from '../api/api';
-import { AuthContext } from '../context/AuthContext';
+import api from '../Api/api';
+import { AuthContext } from '../Context/AuthContext';
 import { User, Save } from 'lucide-react';
 
 const Profile = () => {

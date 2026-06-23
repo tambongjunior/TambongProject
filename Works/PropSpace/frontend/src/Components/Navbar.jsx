@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
-import { AuthContext } from '../context/AuthContext';
+import { AuthContext } from '../Context/AuthContext';
 import { Home, User, PlusCircle, LogOut } from 'lucide-react';
 
 const Navbar = () => {

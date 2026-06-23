@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import api from '../api/api';
+import api from '../Api/api';
 import { Search, MapPin, Home as HomeIcon, Sparkles } from 'lucide-react';
 
 const PropertyCard = ({ property }) => (

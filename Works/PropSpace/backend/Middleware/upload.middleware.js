@@ -1,10 +1,10 @@
 const multer = require('multer');
 const path = require('path');
 
-// Storage config: save to server/uploads/ with unique filenames
+// Storage config: save to backend/Uploads/ with unique filenames
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
-        cb(null, path.join(__dirname, '..', 'uploads'));
+        cb(null, path.join(__dirname, '..', 'Uploads'));
     },
     filename: (req, file, cb) => {
         const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1e9);

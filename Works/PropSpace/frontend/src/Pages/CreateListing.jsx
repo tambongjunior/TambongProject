@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import api from '../api/api';
+import api from '../Api/api';
 import { Save, ArrowLeft, X, ImagePlus, Loader } from 'lucide-react';
 
 const CreateListing = ({ isEdit = false }) => {

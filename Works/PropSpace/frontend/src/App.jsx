@@ -1,13 +1,13 @@
 import { useContext } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { AuthProvider, AuthContext } from './context/AuthContext';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import MyListings from './pages/MyListings';
-import CreateListing from './pages/CreateListing';
-import Profile from './pages/Profile';
+import { AuthProvider, AuthContext } from './Context/AuthContext';
+import Navbar from './Components/Navbar';
+import Home from './Pages/Home';
+import Login from './Pages/Login';
+import Register from './Pages/Register';
+import MyListings from './Pages/MyListings';
+import CreateListing from './Pages/CreateListing';
+import Profile from './Pages/Profile';
 
 const ProtectedRoute = ({ children }) => {
   const { user } = useContext(AuthContext);

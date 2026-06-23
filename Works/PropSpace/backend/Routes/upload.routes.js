@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const auth = require('../middleware/auth.middleware');
-const upload = require('../middleware/upload.middleware');
+const auth = require('../Middleware/auth.middleware');
+const upload = require('../Middleware/upload.middleware');
 
 // POST /api/upload - Upload multiple property images
 router.post('/', auth, (req, res) => {
